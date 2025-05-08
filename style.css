@@ -154,7 +154,7 @@ a {
     background-image: url("images & videos/hero-img.png") !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 47vw !important;
+    height: 48vw !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -175,6 +175,8 @@ a {
     color: #212529 !important;
 }
 
+
+/* Media Query */
 @media screen and (max-width: 600px) {
     .hero-section .img-div {
         height: 100vw !important;
@@ -202,3 +204,9 @@ a {
             font-weight: 400 !important;
         }
     }
+
+    @media screen and (max-width: 800px) {
+        .hero-section .img-div {
+            height: 50vh !important;
+        }
+        }
