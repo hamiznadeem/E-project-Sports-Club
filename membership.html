@@ -9,14 +9,14 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom css -->
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/membership.css">
     <!-- Remix Icon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- Google font Cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
-    <title>Sports Club | Gallery</title>
+    <title>Sports Club | Membership</title>
 </head>
 
 <body>
@@ -47,7 +47,8 @@
                         <ul class="dropdown-menu p-1 ">
                             <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="indoor.html">Indoor Sports
                                 </a></li>
-                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="outdoor.html">Outdoor Sports</a></li>
+                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="outdoor.html">Outdoor
+                                    Sports</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -77,25 +78,73 @@
             </div>
         </div>
     </nav>
-
-    <!-- Hero Section -->
-    <section
-        class="hero-section container-fluid px-2 m-0 position-relative d-flex align-items-center justify-content-center text-center">
-        <div class="img-div container-fluid p-0 d-flex flex-column align-items-center justify-content-center gap-2">
-            <h2 class="text-light">Gallery</h2>
-            <p class="text-light">Home - Gallery</p>
+    <!-- membership form section -->
+    <div class="container row align-items-center justify-content-center m-auto mt-5">
+        <div class="image-section col-md-6">
+            <img src="images & videos/contact-img.webp" alt="Golf Image">
         </div>
-    </section>
-    
-    <!-- gallery section -->
-    <section class="containe-fluid gallery-section text-center py-5 overflow-hidden">
-        <h2>Gallery</h2>
-        <hr>
-        <div class="row gallery-cont mt-5 px-3">
+        <div class="form-section col-md-6">
+            <h2 class="text-center">Join Our Sports Club</h2>
+            <form>
+                <input class="form-input" type="text" placeholder="Full Name" required />
+                <input class="form-input" type="tel" placeholder="Phone Number" required />
+                <input class="form-input" type="email" placeholder="Email Address" required />
+                <div class="container border border-1 border-black rounded-3 pt-3">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male" required />
+                <label class="form-check-label" for="male"><p class="text-muted "> Male</p></label>
+                <input class="form-check-input" type="radio" name="gender" id="female" value="female" required />
+                <label class="form-check-label" for="female"><p class="text-muted"> Female</p></label>
+                <label class="form-check-label text-muted ms-3" for="Age">Age</label>
+                <select class="text-muted" name="age" id="Age" required>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                    <option value="49">49</option>
+                    <option value="50">50</option>
+                </select>
+                </div>
+                <select class="sport-select text-muted" required>
+                    <option selected disabled>Select a Sport</option>
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="badminton">Badminton</option>
+                    <option value="tennis">Tennis</option>
+                    <option value="swimming">Swimming</option>
+                    <option value="swimming">other</option>
+                </select>
+                <textarea type="text" rows="6" placeholder="Message"></textarea>
+                <button class="form-btn" type="submit">Summit</button>
+            </form>
         </div>
-    </section>
-
-        <a class="btn btn-dark backToTopBtn d-none"><i class="ri-arrow-up-s-line"></i></a>
+    </div>
 
     <!-- footer section -->
     <footer class="container-fluid bg-black text-light overflow-hidden">
@@ -128,7 +177,7 @@
                   <p class="follow-para">Our News Letter</p>
                 <div class="container newsLetter-cont d-flex align-items-center justify-content-center">
                     <input class="py-2 px-2 w-50" type="email" id="newsLetterEmail" placeholder="Enter your email">
-                    <input class="btn btn-light rounded rounded-0" type="button" value="Subscribe">
+                    <button class="btn btn-light rounded rounded-0" value="Subscribe">Subscribe</button>
                 </div>
             </div>
             <div class="col-md-4 text-light">
@@ -145,7 +194,6 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script src="js/bckToTop.js"></script>
     <script src="js/swiper.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

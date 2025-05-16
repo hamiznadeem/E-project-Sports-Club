@@ -9,14 +9,14 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom css -->
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/feedback.css">
     <!-- Remix Icon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- Google font Cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
-    <title>Sports Club | Gallery</title>
+    <title>Sports Club | Feedback</title>
 </head>
 
 <body>
@@ -47,7 +47,8 @@
                         <ul class="dropdown-menu p-1 ">
                             <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="indoor.html">Indoor Sports
                                 </a></li>
-                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="outdoor.html">Outdoor Sports</a></li>
+                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="outdoor.html">Outdoor
+                                    Sports</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -59,7 +60,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">CONTACT US</a>
                     </li>
-                      <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="feedback.html">FEEDBACK</a>
                     </li>
                 </ul>
@@ -82,20 +83,34 @@
     <section
         class="hero-section container-fluid px-2 m-0 position-relative d-flex align-items-center justify-content-center text-center">
         <div class="img-div container-fluid p-0 d-flex flex-column align-items-center justify-content-center gap-2">
-            <h2 class="text-light">Gallery</h2>
-            <p class="text-light">Home - Gallery</p>
-        </div>
-    </section>
-    
-    <!-- gallery section -->
-    <section class="containe-fluid gallery-section text-center py-5 overflow-hidden">
-        <h2>Gallery</h2>
-        <hr>
-        <div class="row gallery-cont mt-5 px-3">
+            <h2 class="text-light">FEEDBACK</h2>
+            <p class="text-light">Home - FEEDBACK</p>
         </div>
     </section>
 
-        <a class="btn btn-dark backToTopBtn d-none"><i class="ri-arrow-up-s-line"></i></a>
+    <!-- contact form section -->
+    <div class="container row align-items-center justify-content-center m-auto mt-5 pb-5">
+        <div class="form-section card col-md-6">
+            <h2 class="text-center">FEEDBACK</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required />
+                <input type="email" placeholder="Email Address" required />
+                <h6 class="rate-us">Rate Us</h6>
+                <div class="rating_div d-flex align-items-center gap-3">
+                    <i id="star1" class="ri-star-line stars"></i>
+                    <i id="star2" class="ri-star-line stars"></i>
+                    <i id="star3" class="ri-star-line stars"></i>
+                    <i id="star4" class="ri-star-line stars"></i>
+                    <i id="star5" class="ri-star-line stars"></i>
+                </div>
+
+                <textarea type="text" rows="6" placeholder="Your Feedback"></textarea>
+                <label class="rate-us" for="">What could we improve on?</label>
+                <textarea type="text" rows="6" placeholder="Your Suggestions"></textarea>
+                <button class="form-btn" type="submit">Summit</button>
+            </form>
+        </div>
+    </div>
 
     <!-- footer section -->
     <footer class="container-fluid bg-black text-light overflow-hidden">
@@ -125,7 +140,7 @@
                 <a class="mt-4 help-info" href="mailto:aptechtr@gmail.com"><i class="ri-mail-fill"></i>
                     aptechtr@gmail.com</a>
                 <p class="mt-2 help-info"> <i class="ri-phone-fill"></i> 92-333-0000011</p>
-                  <p class="follow-para">Our News Letter</p>
+                <p class="follow-para">Our News Letter</p>
                 <div class="container newsLetter-cont d-flex align-items-center justify-content-center">
                     <input class="py-2 px-2 w-50" type="email" id="newsLetterEmail" placeholder="Enter your email">
                     <input class="btn btn-light rounded rounded-0" type="button" value="Subscribe">
@@ -145,7 +160,6 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script src="js/bckToTop.js"></script>
     <script src="js/swiper.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

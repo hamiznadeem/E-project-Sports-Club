@@ -1,0 +1,393 @@
+* {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: #212529;
+}
+/* scrollbar css */
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #111111ee;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #111;
+}
+/* navbar Css */
+.border-color {
+    border-color: #1111119a !important;
+    border-radius: 5px
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-center;
+    align-items: center;
+    padding: 15px 10px !important;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.menu-icon .bar {
+    position: relative;
+    z-index: 2;
+    width: 30px;
+    height: 4px;
+    background-color: #212529;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.bar1 {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar3 {
+    transform: rotate(-45deg);
+}
+
+.hide-bar2 {
+    display: none !important;
+}
+
+.navbar .nav-item {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar .nav-item::after {
+    content: "" !important;
+    position: absolute !important;
+    bottom: 0;
+    left: 0 !important;
+    width: 0% !important;
+    height: 3px !important;
+    border-radius: 10px;
+    background-color: #212529 !important;
+    z-index: 1 !important;
+    transition: all 0.3s ease !important;
+}
+
+
+.navbar .nav-item:hover::after {
+    width: 100% !important;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: .6em !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #212529 !important;
+}
+
+.navbar .nav-item .dropdown-menu {
+    left: 50px;
+}
+
+.navbar .nav-item .dropdown-item {
+    font-size: .6em !important;
+    font-weight: 100 !important;
+    border-radius: 5px;
+    transition: all 0.3s ease !important;
+}
+
+.navbar .nav-item .dropdown-item:hover {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+
+.navbar .brand-name-div {
+    height: 100% !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 1em !important;
+    top: 5px;
+}
+
+.navbar .register-btn {
+    position: relative;
+    background-color: #ffffff00 !important;
+    border: 2px solid #212529 !important;
+    font-size: .8em !important;
+    border-radius: 3px !important;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.3s ease !important;
+}
+
+.navbar .register-btn a {
+    position: relative;
+    font-size: .8em !important;
+    z-index: 2;
+    color: #212529;
+    transition: all 0.3s ease;
+}
+
+.navbar .register-btn::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 0% !important;
+    height: 100% !important;
+    background-color: #212529 !important;
+    z-index: 1 !important;
+    transition: all 0.3s ease !important;
+}
+
+.navbar .register-btn:hover::after {
+    width: 100% !important;
+}
+
+.navbar .register-btn:hover>a {
+    color: #fff
+}
+
+/* hero section Css */
+.hero-section .img-div {
+    background-image: url('/images & videos/hero-img.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 65vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 5px !important;
+}
+
+.hero-section .img-div p {
+    font-size: .5rem;
+    ;
+    color: #fff !important;
+}
+
+
+/* membership form Css */
+
+.image-section {
+    min-width: 300px;
+}
+
+.image-section img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.form-section {
+    padding: 40px;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+.form-input,
+.sport-select,
+textarea,
+.form-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: .7rem !important;
+    font-weight: 100 !important;
+}
+#Age{
+    width: 25%;
+    font-size: .6rem !important;
+    border-radius: 5px;
+    padding: 5px 3px
+}
+label{
+    font-size: .6rem;
+}
+
+.form-btn {
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-btn:hover {
+    background-color: #ffffff;
+    color: #111;
+    border: 2px solid #111 !important;
+}
+
+/* Footer Css */
+
+footer .col-md-4 {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .navi-text {
+    font-size: .8rem;
+}
+
+footer .nav-item {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+footer .nav-item::after {
+    content: "" !important;
+    position: absolute !important;
+    bottom: 0;
+    left: 0 !important;
+    width: 0% !important;
+    height: 3px !important;
+    border-radius: 10px;
+    background-color: #fff !important;
+    z-index: 1 !important;
+    transition: all 0.3s ease !important;
+}
+
+
+footer .nav-item:hover::after {
+    width: 100% !important;
+}
+
+footer .nav-item .nav-link {
+    font-size: .6em !important;
+    position: relative !important;
+    z-index: 2 !important;
+    color: #fff;
+}
+
+
+
+footer .footer-heading {
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: .9rem;
+    color: #fff !important;
+
+}
+
+footer .footer-text {
+    line-height: 15px;
+    letter-spacing: 2px;
+    font-size: .4rem;
+    color: #fff !important;
+
+}
+
+footer .social-links {
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+footer .social-links:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+footer .help-info {
+    font-size: .6rem;
+    color: #fff;
+}
+
+footer .help-info i {
+    font-size: .9rem;
+}
+
+footer .newsLetter-cont input,
+footer .newsLetter-cont button,
+footer .newsLetter-cont h6{
+    font-size: .5rem;
+}
+footer .newsLetter-cont .btn{
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 9px 16px;
+}
+footer .newsLetter-cont .btn:hover{
+    background-color: #fff !important;
+    color: #111 !important;
+}
+
+footer iframe {
+    border-radius: 10px;
+    height: 60%;
+}
+
+footer .footer-end .right-text {
+    font-size: .5rem;
+}
+
+@media (max-width: 760px) {
+    footer .col-md-4 {
+        height: 48vh;
+    }
+}
+
+@media (max-width: 730px) {
+    .navbar .nav-item .nav-link {
+        font-size: .5rem !important;
+}    
+    .navbar .navbar-brand {
+        font-size: .8rem !important;
+}    
+    .navbar .register-btn {
+        font-size: .6rem !important;
+}    
+}
+
+@media (max-width: 1000px) {
+    iframe {
+        width: 250px !important;
+    }
+}
+
+@media (max-width: 760px) {
+    iframe {
+        width: 400px !important;
+    }
+}
