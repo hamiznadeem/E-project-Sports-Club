@@ -93,15 +93,15 @@
         <div class="form-section card col-md-6">
             <h2 class="text-center">FEEDBACK</h2>
             <form>
-                <input type="text" placeholder="Full Name" required />
-                <input type="email" placeholder="Email Address" required />
+                <input class="form-input" type="text" placeholder="Full Name" required />
+                <input class="form-input" type="email" placeholder="Email Address" required />
                 <h6 class="rate-us">Rate Us</h6>
-                <div class="rating_div d-flex align-items-center gap-3">
-                    <i id="star1" class="ri-star-line stars"></i>
-                    <i id="star2" class="ri-star-line stars"></i>
-                    <i id="star3" class="ri-star-line stars"></i>
-                    <i id="star4" class="ri-star-line stars"></i>
-                    <i id="star5" class="ri-star-line stars"></i>
+                <div class="rating-div d-flex align-items-center gap-3">
+                    <i onclick="ratingFun(1)" id="1" class="ri-star-line stars"></i>
+                    <i onclick="ratingFun(2)" id="2" class="ri-star-line stars"></i>
+                    <i onclick="ratingFun(3)" id="3" class="ri-star-line stars"></i>
+                    <i onclick="ratingFun(4)" id="4" class="ri-star-line stars"></i>
+                    <i onclick="ratingFun(5)" id="5" class="ri-star-line stars"></i>
                 </div>
 
                 <textarea type="text" rows="6" placeholder="Your Feedback"></textarea>

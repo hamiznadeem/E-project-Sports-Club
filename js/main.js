@@ -422,4 +422,19 @@ const gameDiscFun2 = () => {
 if (sportsDiscCont2) {
     gameDiscFun2()
 };
-
+// feedback js 
+const ratingDiv = document.querySelector('.rating-div');
+let rating = 0;
+let count = 1;
+const ratingFun = (index)=>{
+    ratingDiv.innerHTML = ""
+    rating = index;
+    for(let i = 0; i < 5; i++){
+        if(i < rating){
+            ratingDiv.innerHTML += `<i onclick="ratingFun(${i+1})" id="" class="ri-star-fill stars"></i>`;
+        }else{
+            ratingDiv.innerHTML += `<i onclick="ratingFun(${i+1})" id="" class="ri-star-line stars"></i>`;
+        }
+    };
+    console.log(rating)
+};

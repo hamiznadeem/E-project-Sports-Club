@@ -186,18 +186,7 @@ a {
 }
 
 
-/* contact Form Css */
-
-.image-section {
-    min-width: 300px;
-}
-
-.image-section img {
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
-    border-radius: 10px;
-}
+/* Feedback Form Css */
 
 .form-section {
     padding: 40px;
@@ -213,7 +202,7 @@ form {
     margin-top: 20px;
 }
 
-input,
+.form-input,
 select,
 textarea,
 .form-btn {
@@ -242,6 +231,9 @@ textarea,
     background-color: #ffffff;
     color: #111;
     border: 2px solid #111 !important;
+}
+.rating-div i{
+    font-size: 1.2rem;
 }
 
 
