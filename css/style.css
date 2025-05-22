@@ -173,7 +173,7 @@ a {
 
 /* hero section Css */
 .hero-section .img-div {
-    background-image: url("/images & videos/hero-img.png") !important;
+    background-image: url("../images & videos/hero-img.png") !important;
     background-size: cover !important;
     background-position: center !important;
     height: 47vw !important;

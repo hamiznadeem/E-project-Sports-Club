@@ -169,25 +169,6 @@ a {
     color: #fff
 }
 
-/* hero section Css */
-.hero-section .img-div {
-    background-image: url('/images & videos/hero-img.png') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    height: 65vh !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    border-radius: 5px !important;
-}
-
-.hero-section .img-div p {
-    font-size: .5rem;
-    ;
-    color: #fff !important;
-}
-
-
 /* membership form Css */
 
 .image-section {

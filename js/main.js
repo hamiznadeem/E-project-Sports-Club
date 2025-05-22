@@ -87,7 +87,7 @@ let galleryData = [
     },
     {
         id: 12,
-        img: '../images & videos/indoor-img/snooker-1.jpg',
+        img: './images & videos/indoor-img/snooker-1.jpg',
         title: 'Gallery Image 12',
     },
     {
@@ -183,6 +183,8 @@ if(galleryImages){
 const fullSizeCloseFun = () =>{
     imageBox.classList.add('d-none')
 };
+
+
 
 
 
