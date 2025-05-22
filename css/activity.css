@@ -171,7 +171,7 @@ a {
 
 /* hero section Css */
 .hero-section .img-div {
-    background-image: url('/images & videos/contact.png') !important;
+    background-image: url('/images & videos/feedback.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
     height: 65vh !important;
@@ -186,66 +186,9 @@ a {
 }
 
 
-/* contact Form Css */
-
-.image-section {
-    min-width: 300px;
-}
-
-.image-section img {
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.form-section {
-    padding: 40px;
-}
-
-.form-section h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-}
-
-
-form {
-    margin-top: 20px;
-}
-
-.form-input,
-select,
-textarea,
-.form-btn {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: .7rem !important;
-    font-weight: 100 !important;
-}
-
-.form-btn {
-    background-color: #111;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border: 2px solid #111 !important;
-    transition: all 0.3s ease;
-}
-
-.form-btn:hover {
-    background-color: #ffffff;
-    color: #111;
-}
-
-.modal-para{
-    font-size: .7rem !important;
-}
-
-.modal-footer button{
-    font-size: .5rem !important;
+/* Activities section */
+.activity-section table {
+    font-size: .7em !important;
 }
 
 
@@ -365,7 +308,6 @@ footer .footer-end .right-text {
     }
 }
 
-
 @media (max-width: 730px) {
     .navbar .nav-item .nav-link {
         font-size: .5rem !important;
@@ -377,7 +319,6 @@ footer .footer-end .right-text {
         font-size: .6rem !important;
 }    
 }
-
 
 @media (max-width: 1000px) {
     iframe {

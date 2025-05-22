@@ -49,6 +49,7 @@
                                 </a></li>
                             <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="outdoor.html">Outdoor
                                     Sports</a></li>
+                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="activity.html">Activities</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -88,7 +89,7 @@
         </div>
     </section>
 
-    <!-- contact form section -->
+    <!-- Feedback form section -->
     <div class="container row align-items-center justify-content-center m-auto mt-5 pb-5">
         <div class="form-section card col-md-6">
             <h2 class="text-center">FEEDBACK</h2>
@@ -106,9 +107,32 @@
 
                 <textarea type="text" rows="6" placeholder="Your Feedback"></textarea>
                 <label class="rate-us" for="">What could we improve on?</label>
-                <textarea type="text" rows="6" placeholder="Your Suggestions"></textarea>
-                <button class="form-btn" type="submit">Summit</button>
+                <textarea type="text" rows="6" placeholder="Your Suggestions / Complaints"></textarea>
+                <button class="form-btn" type="button" data-bs-toggle="modal" data-bs-target="#myModal" >Summit</button>
             </form>
+        </div>
+    </div>
+
+        <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h6 class="modal-title">Feedback</h6>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p class="modal-para">Thank you for your Feedback</p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
         </div>
     </div>
 

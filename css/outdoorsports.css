@@ -201,6 +201,13 @@ a {
     transition: all .5 ease;
 }
 
+
+/* timing section */
+.timing-section table {
+    font-size: .7em !important;
+}
+
+
 /* Footer Css */
 
 footer .col-md-4 {

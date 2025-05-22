@@ -171,7 +171,7 @@ a {
 
 /* hero section Css */
 .hero-section .img-div {
-    background-image: url('/images & videos/contact.png') !important;
+    background-image: url('/images & videos/feedback.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
     height: 65vh !important;
@@ -236,6 +236,13 @@ textarea,
     font-size: 1.2rem;
 }
 
+.modal-para{
+    font-size: .7rem !important;
+}
+
+.modal-footer button{
+    font-size: .5rem !important;
+}
 
 
 /* Footer Css */

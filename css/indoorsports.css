@@ -190,6 +190,11 @@ a {
     border-radius: 5px !important;
 }
 
+/* timing section */
+.timing-section table {
+    font-size: .7em !important;
+}
+
 /* back to top btn  */
 .backToTopBtn{
     position: fixed;

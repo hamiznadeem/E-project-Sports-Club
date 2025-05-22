@@ -9,20 +9,20 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom css -->
-    <link rel="stylesheet" href="css/indoorsports.css">
+    <link rel="stylesheet" href="css/activity.css">
     <!-- Remix Icon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- Google font Cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
-    <title>Sports Club | Indoor</title>
+    <title>Sports Club | Feedback</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-white  px-3">
-        <div class="container-fluid d-flex py-2 px-1 align-items-center border border-1 border-color">
+        <div class="container-fluid d-flex py-2 px-1 align-items-center  border border-1 border-color">
             <div class="text-center brand-name-div d-sm-none d-flex align-items-center justify-content-center h-100
             mt-1 px-1 ">
                 <a href="index.html">
@@ -49,7 +49,8 @@
                                 </a></li>
                             <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="outdoor.html">Outdoor
                                     Sports</a></li>
-                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="activity.html">Activities</a></li>
+                            <li class="py-2 px-2"><a class="dropdown-item py-2 px-2" href="activity.html">Activities</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -80,11 +81,98 @@
         </div>
     </nav>
 
-    <div class="container sports-disc-cont p-3 d-flex flex-column gap-5">
-        
-    </div>
-    
-    <a class="btn btn-dark backToTopBtn d-none"><i class="ri-arrow-up-s-line"></i></a>
+    <!-- Hero Section -->
+    <section
+        class="hero-section container-fluid px-2 m-0 position-relative d-flex align-items-center justify-content-center text-center">
+        <div class="img-div container-fluid p-0 d-flex flex-column align-items-center justify-content-center gap-2">
+            <h2 class="text-light">Activities</h2>
+            <p class="text-light">Home - Activities</p>
+        </div>
+    </section>
+
+    <!-- Activity section -->
+    <section class="container activity-section my-5">
+        <div class="text-center mb-4">
+            <h5>Yearly Activities</h5>
+            <hr>
+        </div>
+        <div class="card  shadow-lg">
+            <div class="card-body">
+                <table class="table table-bordered text-start">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>Month</th>
+                            <th>Activity</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>New Year Tournament</td>
+                            <td>Indoor badminton competition for all age groups.</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>Fitness Challenge</td>
+                            <td>A month-long fitness program with weekly goals and rewards.</td>
+                        </tr>
+                        <tr>
+                            <td>March</td>
+                            <td>Spring Marathon</td>
+                            <td>5km and 10km runs around the city park.</td>
+                        </tr>
+                        <tr>
+                            <td>April</td>
+                            <td>Cricket League</td>
+                            <td>Inter-club cricket matches with trophies for the winners.</td>
+                        </tr>
+                        <tr>
+                            <td>May</td>
+                            <td>Yoga Month</td>
+                            <td>Daily yoga sessions with professional instructors.</td>
+                        </tr>
+                        <tr>
+                            <td>June</td>
+                            <td>Summer Swimming Gala</td>
+                            <td>Swimming competitions and fun activities for kids and adults.</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Table Tennis Tournament</td>
+                            <td>Singles and doubles tournaments open to all members.</td>
+                        </tr>
+                        <tr>
+                            <td>August</td>
+                            <td>Independence Day Celebration</td>
+                            <td>Special matches and cultural activities for Independence Day.</td>
+                        </tr>
+                        <tr>
+                            <td>September</td>
+                            <td>Football Championship</td>
+                            <td>Week-long football matches among local teams.</td>
+                        </tr>
+                        <tr>
+                            <td>October</td>
+                            <td>Halloween Night</td>
+                            <td>Fun games and spooky-themed sports events.</td>
+                        </tr>
+                        <tr>
+                            <td>November</td>
+                            <td>Autumn Cycling Event</td>
+                            <td>15km cycling challenge through scenic routes.</td>
+                        </tr>
+                        <tr>
+                            <td>December</td>
+                            <td>End-of-Year Gala</td>
+                            <td>Closing ceremony with awards and special performances.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
     <!-- footer section -->
     <footer class="container-fluid bg-black text-light overflow-hidden">
         <div class="row">
@@ -113,7 +201,7 @@
                 <a class="mt-4 help-info" href="mailto:aptechtr@gmail.com"><i class="ri-mail-fill"></i>
                     aptechtr@gmail.com</a>
                 <p class="mt-2 help-info"> <i class="ri-phone-fill"></i> 92-333-0000011</p>
-                  <p class="follow-para">Our News Letter</p>
+                <p class="follow-para">Our News Letter</p>
                 <div class="container newsLetter-cont d-flex align-items-center justify-content-center">
                     <input class="py-2 px-2 w-50" type="email" id="newsLetterEmail" placeholder="Enter your email">
                     <input class="btn btn-light rounded rounded-0" type="button" value="Subscribe">
@@ -133,7 +221,6 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <script src="js/bckToTop.js"></script>
     <script src="js/swiper.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

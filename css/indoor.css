@@ -23,6 +23,12 @@ a {
     background-color: #111;
 }
 /* navbar Css */
+
+.border-color {
+    border-color: #1111119a !important;
+    border-radius: 5px
+}
+
 .navbar-toggler {
     border: none !important;
 }
